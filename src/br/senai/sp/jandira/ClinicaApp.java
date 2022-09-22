@@ -24,6 +24,9 @@ public class ClinicaApp {
 		plano.setOperadora("Unimed");
 		plano.setTipoDoPlano("Prata");
 		
+		PlanoDeSaude plano2 = new PlanoDeSaude("Amil");
+		
+		
 		//criar um endereço
 		Endereco endereco = new Endereco();
 		endereco.setLogradouro("Rua Itajobi");
